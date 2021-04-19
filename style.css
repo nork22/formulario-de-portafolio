@@ -1,0 +1,42 @@
+
+*{
+    box-sizing: border-box;
+}
+    body {
+  margin: 0;
+
+    }
+
+.screem{
+    display: flex;
+    height: 100vh;
+
+
+}
+
+.leftside {
+ flex:1;
+ display: flex;
+ justify-content:left;
+ align-items:center;
+
+}
+.leftside img {
+max-width: 600px; 
+height: auto;
+
+
+}
+.rightside {
+    width: 600px;
+    background-color: rgb(79, 72, 185);
+    padding: 50px;
+
+}
+.rightside label {
+    display: block;
+    margin-bottom: 30px;
+
+}
+
+
